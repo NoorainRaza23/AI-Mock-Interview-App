@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div style={styles.container}>
-      <Link href={'/dashboard'} className='font-bold text-xl bg-purple-700 text-white px-2 -skew-x-12 font-mono' style={styles.topLink}>
+      <Link href="/dashboard" className='font-bold text-xl bg-purple-700 text-white px-2 -skew-x-12 font-mono' style={styles.topLink}>
         AI Interview
       </Link>
       <h1 style={styles.heading}>AI Mock Interview App</h1>
@@ -12,8 +12,8 @@ export default function Home() {
         Welcome to our AI-powered Mock Interview platform. Prepare for your
         dream job with confidence.
       </p>
-      <Link href={'/dashboard'}>
-        <Button style={styles.button}>Subscribe</Button>
+      <Link href="/dashboard">
+        <Button style={styles.button}>Get Started</Button>
       </Link>
     </div>
   );
